@@ -1,0 +1,186 @@
+import { WallpaperItem } from '@/domain';
+
+export const felix: WallpaperItem[] = [
+    {
+        name: 'Felix',
+        link: 'https://i.pinimg.com/enabled/564x/46/44/2b/46442bb1425a5118e846958f6a0eddb3.jpg',
+        category: 'felix',
+        star: false,
+    },
+    {
+        name: 'Felix',
+        link: 'https://i.pinimg.com/564x/0c/10/0c/0c100c9d96222956cd25bd4dea1f4e08.jpg',
+        category: 'felix',
+        star: false,
+    },
+    {
+        name: 'Felix',
+        link: 'https://i.pinimg.com/736x/08/f6/12/08f61270ced6132ac0fd7eb0b70b6f99.jpg',
+        category: 'felix',
+        star: false,
+    },
+    {
+        name: 'Felix',
+        link: 'https://i.pinimg.com/736x/ba/47/42/ba4742cde926e4356818aa242da808bd.jpg',
+        category: 'felix',
+        star: false,
+    },
+    {
+        name: 'Felix',
+        link: 'https://i.pinimg.com/enabled/564x/e9/73/a1/e973a114c62fc5b55bab624f752c1b98.jpg',
+        category: 'felix',
+        star: false,
+    },
+    {
+        name: 'Felix',
+        link: 'https://i.pinimg.com/736x/2b/8b/61/2b8b61e9d2b65d6089b27914e9a9b6cb.jpg',
+        category: 'felix',
+        star: false,
+    },
+    {
+        name: 'Felix',
+        link: 'https://i.pinimg.com/enabled/564x/63/76/8a/63768a9d00833ce11767d829edeb1e9f.jpg',
+        category: 'felix',
+        star: false,
+    },
+    {
+        name: 'Felix',
+        link: 'https://i.pinimg.com/736x/2f/5e/22/2f5e22b87b2d0ea100449c50405775eb.jpg',
+        category: 'felix',
+        star: false,
+    },
+    {
+        name: 'Felix',
+        link: 'https://i.pinimg.com/enabled/564x/55/a6/84/55a684a6119afa30707c8525a9939486.jpg',
+        category: 'felix',
+        star: false,
+    },
+    {
+        name: 'Felix',
+        link: 'https://i.pinimg.com/enabled/564x/dd/c9/d7/ddc9d745fbe1649ef88b542f3aea3660.jpg',
+        category: 'felix',
+        star: false,
+    },
+    {
+        name: 'Felix',
+        link: 'https://i.pinimg.com/736x/77/7d/2f/777d2fc5cfa863361b2b9feeec6c76eb.jpg',
+        category: 'felix',
+        star: false,
+    },
+    {
+        name: 'Felix',
+        link: 'https://i.pinimg.com/enabled/564x/fe/10/1f/fe101ffb3895da4988d3b7be3116ffbc.jpg',
+        category: 'felix',
+        star: false,
+    },
+    {
+        name: 'Felix',
+        link: 'https://i.pinimg.com/736x/3e/2b/1c/3e2b1c18b96e78ccef2199eeed11cbda.jpg',
+        category: 'felix',
+        star: false,
+    },
+    {
+        name: 'Felix',
+        link: 'https://i.pinimg.com/564x/97/df/e2/97dfe2b144990117fe0e9566bb24d08e.jpg',
+        category: 'felix',
+        star: false,
+    },
+    {
+        name: 'Felix',
+        link: 'https://i.pinimg.com/enabled/564x/51/fa/0c/51fa0cf0b5034ae42f9311597b135b06.jpg',
+        category: 'felix',
+        star: false,
+    },
+    {
+        name: 'Felix',
+        link: 'https://i.pinimg.com/564x/a4/45/63/a4456328d9f3fa640cb66bf16d5bd78a.jpg',
+        category: 'felix',
+        star: false,
+    },
+    {
+        name: 'Felix',
+        link: 'https://i.pinimg.com/enabled/564x/2c/ec/ea/2cecea03b955425cc81acc9075704e9f.jpg',
+        category: 'felix',
+        star: false,
+    },
+    {
+        name: 'Felix',
+        link: 'https://i.pinimg.com/736x/83/fc/53/83fc53389610fe09393ee7abf1f6341e.jpg',
+        category: 'felix',
+        star: false,
+    },
+    {
+        name: 'Felix',
+        link: 'https://i.pinimg.com/736x/92/1e/ec/921eeca67ce9d90580df1af62ceb48ba.jpg',
+        category: 'felix',
+        star: false,
+    },
+    {
+        name: 'Felix',
+        link: 'https://i.pinimg.com/enabled/564x/56/c6/18/56c618771d03206d067df476530e5bdc.jpg',
+        category: 'felix',
+        star: false,
+    },
+    {
+        name: 'Felix',
+        link: 'https://i.pinimg.com/564x/4f/f1/fb/4ff1fbdbec8f197c1a4b050bc473d848.jpg',
+        category: 'felix',
+        star: false,
+    },
+    {
+        name: 'Felix',
+        link: 'https://i.pinimg.com/736x/dc/83/fc/dc83fc0df721a1c66f661757fc68d384.jpg',
+        category: 'felix',
+        star: false,
+    },
+    {
+        name: 'Felix',
+        link: 'https://i.pinimg.com/736x/0a/13/59/0a135958a1908390b2eb84f1ba8b3d9c.jpg',
+        category: 'felix',
+        star: false,
+    },
+    {
+        name: 'Felix',
+        link: 'https://i.pinimg.com/736x/b1/c4/ac/b1c4aca7a9f9a2e4183d1c86371d791d.jpg',
+        category: 'felix',
+        star: false,
+    },
+    {
+        name: 'Felix',
+        link: 'https://i.pinimg.com/736x/11/6f/59/116f59022b2652b1d6078dde19e3a921.jpg',
+        category: 'felix',
+        star: false,
+    },
+    {
+        name: 'Felix',
+        link: 'https://i.pinimg.com/enabled/564x/0b/80/e9/0b80e98135cf3e76f9c2d9e72e43cbfa.jpg',
+        category: 'felix',
+        star: false,
+    },
+    {
+        name: 'Felix',
+        link: 'https://i.pinimg.com/736x/5e/6e/ff/5e6effa67edb4649967bd060499130a6.jpg',
+        category: 'felix',
+        star: false,
+    },
+    {
+        name: 'Felix',
+        link: 'https://i.pinimg.com/enabled/564x/58/c9/f5/58c9f54115b2e060919961d24a1dfb34.jpg',
+        category: 'felix',
+        star: false,
+    },
+    {
+        name: 'Felix',
+        link: 'https://i.pinimg.com/736x/67/d6/cd/67d6cdf4e9f3d867cfea4c9687593d3a.jpg',
+        category: 'felix',
+        star: false,
+    },
+    {
+        name: 'Felix',
+        link: 'https://i.pinimg.com/736x/7e/dd/7a/7edd7a983c02f2d8886123804e4b1f7c.jpg',
+        category: 'felix',
+        star: false,
+    },
+    
+]
+
