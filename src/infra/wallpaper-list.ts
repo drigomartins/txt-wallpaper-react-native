@@ -1,25 +1,17 @@
 import { WallpaperItem } from '@/domain';
 
-import { bangChan } from './bang-chan';
-import { felix } from './felix';
-import { hyunjin } from './hyunjin';
-import { leeKnow } from './lee-know';
-import { stayKids } from './stray-kids';
-import { hanJisung } from './han-jisung';
-import { jeongin } from './jeongin';
-import { seungmin } from './seungmin';
-import { changbin } from './changbin';
-import { woojin } from './woojin';
+import { yeonjun } from './yeonjun';
+import { soobin } from './soobin';
+import { taehyun } from './taehyun';
+import { beomgyu } from './beomgyu';
+import { hueningKai } from './huening-kai';
+import { tomorrowXtogether } from './tomorrow-x-together';
 
 export const wallpaperList: WallpaperItem[] = [
-  ...stayKids,
-  ...hyunjin,
-  ...felix,
-  ...bangChan,
-  ...leeKnow,
-  ...hanJisung,
-  ...jeongin,
-  ...seungmin,
-  ...changbin,
-  ...woojin,
+  ...yeonjun,
+  ...soobin,
+  ...taehyun,
+  ...beomgyu,
+  ...hueningKai,
+  ...tomorrowXtogether,
 ];
