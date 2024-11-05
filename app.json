@@ -23,19 +23,19 @@
         "backgroundColor": "#ffffff"
       },
       "package": "com.drigo.oliveira94.darkknighttxtwallpaper",
-      "versionCode": 2
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "extra": {
       "eas": {
-        "projectId": "254bde2d-d146-4f26-a749-a404f6adee31"
+        "projectId": "e580d424-ad14-4d2c-97ee-b12982ec168c"
       }
     }
   },
   "react-native-google-mobile-ads": {
-    "android_app_id": "ca-app-pub-6202074218659375~6580481173",
-    "ios_app_id": "ca-app-pub-6202074218659375~6580481173"
+    "android_app_id": "ca-app-pub-6202074218659375~7480986535",
+    "ios_app_id": "ca-app-pub-6202074218659375~7480986535"
   }
 }

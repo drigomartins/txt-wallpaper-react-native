@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { SafeAreaView } from 'react-native';
 import Ionicons from '@expo/vector-icons/Ionicons';
@@ -10,7 +10,6 @@ import {
   ContainerView,
   HeaderView,
   PressableView,
-  SubTitleView,
   TitleView,
   ToggleThemeView,
   LogoView,
@@ -28,7 +27,7 @@ export const TemplateRoot: React.FC<Props> = ({
   page,
   returnPage,
 }) => {
-  const { theme, setTheme, currentPage } = useTheme();
+  const { theme, setTheme } = useTheme();
 
   const getTheme = (theme: string, light: string, dark: string): string => {
     return theme === 'light' ? light : dark;
@@ -45,8 +44,17 @@ export const TemplateRoot: React.FC<Props> = ({
         <HeaderView>
           {page === 'home' && (
             <AlignTitleView>
-              {/* <SubTitleView theme={theme}>STRAY KIDS</SubTitleView> */}
-              <LogoView source={require('../../../assets/logo.png')} />
+              {theme === 'light' ? (
+                <LogoView
+                  theme={theme}
+                  source={require('../../../assets/logo.png')}
+                />
+              ) : (
+                <LogoView
+                  theme={theme}
+                  source={require('../../../assets/logo-white.png')}
+                />
+              )}
               <TitleView theme={theme}>WALLPAPER</TitleView>
             </AlignTitleView>
           )}

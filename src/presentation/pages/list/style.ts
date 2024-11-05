@@ -1,4 +1,5 @@
 import styled from 'styled-components/native';
+import { StyleSheet } from 'react-native';
 
 export const TextView = styled.Text`
   width: 100%;
@@ -35,3 +36,12 @@ export const ContentAds = styled.View`
   border-radius: 10px;
   background-color: #fff;
 `;
+export const styles = StyleSheet.create({
+  image: {
+    flex: 1,
+    position: 'absolute',
+    width: '100%',
+    height: '100%',
+    borderRadius: 10,
+  },
+});

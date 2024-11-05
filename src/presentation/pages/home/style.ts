@@ -1,4 +1,5 @@
 import styled from 'styled-components/native';
+import { StyleSheet } from 'react-native';
 
 type Props = {
   color: boolean;
@@ -17,6 +18,7 @@ export const PressableView = styled.Pressable`
   margin-bottom: 15px;
   background-color: #fff;
   margin: 2%;
+  position: relative;
 `;
 export const ContentAds = styled.View`
   margin-top: 10px;
@@ -38,10 +40,11 @@ export const ImageView = styled.Image`
 export const TextView = styled.Text`
   width: 100%;
   color: #fff;
-  margin-top: -60px;
   padding: 20px;
   font-size: 20px;
   text-shadow: #000 1px 1px 10px;
+  position: absolute;
+  bottom: 0px;
 `;
 export const ContainerBannerView = styled.View`
   width: 100%;
@@ -61,3 +64,13 @@ export const FadeView = styled.Image`
   height: 100%;
   position: absolute;
 `;
+
+export const styles = StyleSheet.create({
+  image: {
+    flex: 1,
+    position: 'absolute',
+    width: '100%',
+    height: '100%',
+    borderRadius: 10,
+  },
+});

@@ -7,6 +7,7 @@ import {
 import { FlatList } from 'react-native';
 import { BannerAd, BannerAdSize } from 'react-native-google-mobile-ads';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import { Image } from 'expo-image';
 
 import { Category, WallpaperItem } from '@/domain';
 import { wallpaperList } from '@/infra';
@@ -20,12 +21,14 @@ import {
   ContentAds,
   FadeView,
   ImageBannerView,
-  ImageView,
   PressableView,
   TextView,
+  styles,
 } from './style';
 import { Props } from './type';
 
+const blurhash =
+  '|rF?hV%2WCj[ayj[a|j[az_NaeWBj@ayfRayfQfQM{M|azj[azf6fQfQfQIpWXofj[ayj[j[fQayWCoeoeaya}j[ayfQa{oLj?j[WVj[ayayj[fQoff7azayj[ayj[j[ayofayayayj[fQj[ayayj[ayfjj[j[ayjuayj[';
 const interstitial = InterstitialAd.createForAdRequest(TestIds.INTERSTITIAL);
 
 export const Home: React.FC<Props> = ({ navigation }) => {
@@ -81,6 +84,7 @@ export const Home: React.FC<Props> = ({ navigation }) => {
   };
 
   useEffect(() => {
+    Image.clearMemoryCache();
     getStorageInfo();
     getCategoryList();
 
@@ -106,7 +110,7 @@ export const Home: React.FC<Props> = ({ navigation }) => {
       <ContainerImageView>
         <ContentAds>
           <BannerAd
-            unitId={'ca-app-pub-6202074218659375/5711086781'}
+            unitId={'ca-app-pub-6202074218659375/3477759393'}
             size={BannerAdSize.ANCHORED_ADAPTIVE_BANNER}
             requestOptions={{
               requestNonPersonalizedAdsOnly: true,
@@ -132,10 +136,12 @@ export const Home: React.FC<Props> = ({ navigation }) => {
                 setCategory(item);
               }}
             >
-              <ImageView
-                source={{
-                  uri: getRandomImageByCategory(item),
-                }}
+              <Image
+                style={styles.image}
+                source={getRandomImageByCategory(item)}
+                placeholder={{ blurhash }}
+                contentFit="cover"
+                transition={1000}
               />
               <TextView>{getCategoryName(item)}</TextView>
             </PressableView>

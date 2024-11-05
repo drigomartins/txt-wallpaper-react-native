@@ -42,14 +42,14 @@ export const SubTitleView = styled.Text<Props>`
   color: ${(props) => (props.theme === 'light' ? '#898da1' : '#9f9f9f')};
 `;
 export const TitleView = styled.Text<Props>`
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 18px;
+  font-weight: 300;
   width: 200px;
   color: ${(props) => (props.theme === 'light' ? '#292d3e' : '#ffffff')};
 `;
 export const PressableView = styled.Pressable``;
 
-export const LogoView = styled.Image`
-  width: 70px;
-  height: 35px;
+export const LogoView = styled.Image<Props>`
+  width: 80px;
+  height: 20px;
 `;
